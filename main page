@@ -1,0 +1,105 @@
+<!doctype html>
+<!Doctype Html>  
+<Html>     
+<Head>      
+<Title>     
+Make a Navigation Bar  
+</Title>  
+<style type=text/css>   
+body   
+{  
+height: 125vh;  
+margin-top: 80px;  
+padding: 30px;  
+background-size: cover;  
+font-family: sans-serif;  
+}  
+header {  
+background-color: #197BBD;  
+position: fixed;  
+left: 0;  
+right: 0;  
+top: 5px;  
+height: 30px;  
+display: flex;  
+align-items: center;  
+box-shadow: 0 0 25px 0 black;  
+}  
+header * {  
+display: inline;  
+}  
+header li {  
+margin: 20px;  
+}  
+header li a {  
+color: #FDFFFC;  
+text-decoration: none;  
+}  
+</style>   
+</Head>  
+<Body>   
+<header>  
+<nav>  
+<ul>  
+<li>  
+<a href="#"> الرئيسية </a>  
+</li>  
+<li>  
+<a href="#"> التسجيل </a>  
+</li>  
+<li>  
+<a href="#"> التواصل </a>  
+</li>     
+</ul>  
+</nav>  
+</header>  
+</Body>   
+</Html> 
+<!DOCTYPE html>
+<html>
+<body>
+<html>
+<body background="https://blog.bizvibe.com/wp-content/uploads/2020/08/Top-Daycare-Companes.jpg">
+</body>
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title>Blank template</title>
+
+        <!-- Load external CSS styles -->
+        <link rel="stylesheet" href="styles.css">
+
+    </head>
+
+    <body>
+
+        <h1>التسجيل الالكتروني لحضانة جامعه الامام محمد بن سعود الاسلامية</h1>
+        
+        <!-- Load external JavaScript -->
+        <script src="scripts.js"></script>
+        
+    </body>
+
+</html>
+<Html>   
+<Head>    
+<style>
+.footer {
+position: fixed;
+left: 10px;
+bottom: 30px;
+right: 50px; 
+width: 95%;
+background-color: #197BBD;
+color: #FDFFFC;
+text-align: center;
+}
+</style>
+</Head>
+<Body> 
+<div class="footer">
+    hello world
+</div>
+</Body>
+</Html>
