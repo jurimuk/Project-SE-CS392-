@@ -140,10 +140,11 @@
 <body>
 
     <div class="topnav">
-        <a class="active" href="#home">Home / الرئيسية</a>
-        <a href="reg">Registration /  التقديم</a>
-        <a href="#sign-in">Sign in / تسجيل الدخول</a>
-        <img class="main-logo" src="https://pbs.twimg.com/profile_images/1576974026278375427/wVGPM26T_400x400.jpg">
+        <a href="#home"class="active">Home / الرئيسية</a>
+        <a href="#reg"class="active">Registration /  التقديم</a>
+        <a  href="#signin" class="active">Sign in / تسجيل الدخول</a>
+        <img class="main-logo"     
+        src="https://pbs.twimg.com/profile_images/1576974026278375427/wVGPM26T_400x400.jpg">
         <p><b>المملكة العربية السعودية </b></p>
         <p><b>وزارة التعليم</b></p>
         <p><b>جامعة الإمام محمد بن سعود الإسلامية</b></p>
@@ -155,7 +156,9 @@
             <img src="img_avatar2.png" alt="Avatar" class="avatar">
         </div>
 
-        <div class="container">
+
+           <div class="container" style="padding:10px 16px" id="signin">
+                      
             <label for="uname"><b>Username / اسم المستخدم</b></label>
             <input type="text" placeholder="Enter Username" name="uname" required>
 
