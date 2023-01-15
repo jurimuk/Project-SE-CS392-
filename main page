@@ -1,208 +1,179 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-* {box-sizing: border-box;}
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  form {border: 3px solid #f1f1f1;}
-}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
 
-.name {
- color: fdfff;
-   text-align: center;
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
 
-}
-
-.navbar {
-  width: 100%;
-  background-color: #555;
-  overflow: center;
-    text-align: center;
-
-}
+            form {
+                border: 3px solid #f1f1f1;
+            }
+        }
 
 
-.topnav {
-  overflow: hidden;
-  background-color: #6E9075;
-    text-align: center;
+        .name {
+            color: #221d23;
+            text-align: center;
 
-}
+        }
 
-img {
-  width: 12%;
-  border-radius: 0%;
-  position: right;
-}
+        .navbar {
+            position: fixed;
+            width: 100%;
+            background-color: #221d23;
+            overflow: center;
+            text-align: center;
 
-.topnav a {
-  float: center;
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 16px;
-  
-  
-}
-
-.topnav a:hover {
-  background-color: #197bbd;
-  color: white;
-    text-align: center;
-    
-
-}
+        }
 
 
+        .container {
+            padding: 10px;
+            text-align: center;
 
-.topnav a.active {
-  background-color: #197bbd;
-  color: white;
-  text-align: center;
-  
+        }
 
-}
+        .topnav {
+            overflow: visible;
+            background-color: #197bbd;
+            text-align: right;
+            padding: 20px;
 
-body, html {
-  height: 100%;
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.bg-image {
-  /* Full height */
-  height: 50%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+        }
 
 
-/* Images used */
-.img1 { background-image: url("https://units.imamu.edu.sa/administrations/riyadhalatfal/news/PublishingImages/news_f2acbc.jpg"); }
-.img2 { background-image: url("https://units.imamu.edu.sa/administrations/riyadhalatfal/news/PublishingImages/news2_33c0d0.jpg"); }
-.img3 { background-image: url("https://units.imamu.edu.sa/administrations/riyadhalatfal/news/PublishingImages/new-11_7367ed.jpg"); }
-.img4 { background-image: url("https://units.imamu.edu.sa/administrations/riyadhalatfal/news/PublishingImages/news-_h_f7fecb.jpg"); }
-.img5 { background-image: url("https://units.imamu.edu.sa/administrations/riyadhalatfal/news/PublishingImages/news-_h_fec438.jpg"); }
-.img6 { background-image: url("https://units.imamu.edu.sa/administrations/riyadhalatfal/news/PublishingImages/news-_h_67ee7e.jpg"); }
+        .topnav a {
+            float: left;
+            display: block;
+            color: #fdfffc;
+            text-align: center;
+            padding: 10px;
+            text-decoration: double;
+            font-size: 20px;
 
-/* Position text in the middle of the page/image */
- <!--.bg-text {
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  border: 10px solid #f1f1f1;
-  position: fixed; /* Stay fixed */
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-  width: 300px;
-  padding: 20px;
-  text-align: center; -->
+        }
+
+        .topnav a:hover {
+            color: #fdfffc;
+            text-align: center;
 
 
-}
-.header {
-  padding: 100px;
-  text-align: center;
-  background: #197BBD;
-  color: white;
-  font-size: 20px;
-}
+        }
+
+        .topnav a.active {
+            background-color: white;
+            color: #197bbd;
+            text-align: center;
 
 
+        }
 
-</style>
+        .footer {
+            position: auto;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: #197bbd;
+            color: #fdfffc;
+            text-align: center;
+            font-size: 120%;
+            padding: 10px 0;
+
+        }
+
+        img {
+            width: 9%;
+            border-radius: 100%;
+
+        }
+
+        body,
+        html {
+            height: 100%;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .bg-image {
+            /* The image used */
+            background-image: url("https://www.americanprogress.org/wp-content/uploads/2018/11/GettyImages-904850226.jpg");
+
+
+            /* Full height */
+            height: 100%;
+
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        /* Position text in the middle of the page/image */
+        .bg-text {
+            background-color: rgb(0, 0, 0);
+            /* Fallback color */
+            background-color: rgba(0, 0, 0, 0.4);
+            /* Black w/opacity/see-through */
+            color: white;
+            font-weight: bold;
+            border: 3px solid #f1f1f1;
+            position: absolute;
+            top: absolute;
+            left: absolute;
+            transform: translate(-50%, -50%);
+            z-index: 2;
+            width: 80%;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
 </head>
+
 <body>
 
-<div class="topnav">
-<img class="main-logo" src="https://imamu.edu.sa/PublishingImages/logo/%D8%B4%D8%B9%D8%A7%D8%B1_%D8%AC%D8%A7%D9%85%D8%B9%D8%A9_%D8%A7%D9%84%D8%A5%D9%85%D8%A7%D9%85_%D8%A7%D9%84%D9%85%D8%B9%D8%AA%D9%85%D8%AF_%D9%84%D9%84%D8%AA%D8%AD%D9%85%D9%8A%D9%84.png">
-<p><b>المملكة العربية السعودية </b></p>
-<p><b>وزارة التعليم</b></p>
-<p><b>جامعة الإمام محمد بن سعود الإسلامية</b></p> 
--------------------------------------------------------------------
-<a class="active" href="#home">Home / الرئيسية</a>
-<a href="reg">Registration /  التقديم</a>
-<a href="#sign-in">Sign in / تسجيل الدخول</a>
-    </form>
-  </div>
-</body>
+    <div class="topnav">
+        <a class="active" href="#home">Home / الرئيسية</a>
+        <a href="#reg" class="active">Registration / التقديم</a>
+        <a href="#sign-in" class="active">Sign in / تسجيل الدخول</a>
+        <img class="main-logo" src="https://pbs.twimg.com/profile_images/1576974026278375427/wVGPM26T_400x400.jpg">
+        <p><b>المملكة العربية السعودية </b></p>
+        <p><b>وزارة التعليم</b></p>
+        <p><b>جامعة الإمام محمد بن سعود الإسلامية</b></p>
+    </div>
 
-<html>
-    <head>
-        <meta charset="utf-8">
- 
-        <title>Blank template</title>
+    </div>
 
-        <link rel="stylesheet" href="styles.css">
 
-    </head>
+    </div>
+    <div class="bg-image w3-text-white w3-large" style="padding:24px 48px" id="home">
 
-    <body>
-          
-        <div class="bg-image img1"></div>
-<div class="bg-image img2"></div>
-       
-<div class="header">
-  <h1>!أهلًا وسهلًا بكم</h1>
-  <p>في التسجيل الإلكتروني لحضانة جامعة الإمام محمد بن سعود الإسلامية</p>
-</div>
-<div class="bg-image img3"></div>
-<div class="bg-image img4"></div>
-<div class="bg-image img5"></div>
-<div class="bg-image img6"></div>
+        <h2>
 
- <!-- <div class="bg-text">أهلًا وسهلًا بكم</div>-->
+            الموقع الرسمي للتسجيل في إدارة الحضانات ورياض الاطفال التابعة لوكالة تطوير الأعمال والاستثمار بجامعة الامام محمد بن سعود الإسلامية
+        </h2>
 
-        <script src="scripts.js"></script>
-        
-    </body>
-  </div>
+
+    </div>
+
+
+    <div class="footer">
+        <p>التسجيل الإلكتروني لحضانة جامعة الإمام محمد بن سعود الإسلامية</p>
+        <p>جميع الحقوق محفوظة لجامعة الإمام محمد بن سعود الإسلامية 1444 هـ - 2023 م</p>
+        <a href="https://units.imamu.edu.sa/administrations/riyadhalatfal/Pages/default.aspx"><u>الموقع الرسمي للحضانة </u></a>
+        |
+        <a href="https://twitter.com/bkikaimamu?s=11&t=xeoT0roKetweN5NfaeGlIA"><u>حسابنا على التويتر </u></a>
+    </div>
 
 </body>
+
 </html>
-<body background="https://blog.bizvibe.com/wp-content/uploads/2020/08/Top-Daycare-Companes.jpg">
-</body>
-
-<style>
-.footer {
-  position: relative;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: #6E9075;
-  color: black;
-  text-align: center;
-  font-size: 120%;
-  padding: 10px 0;
-  
-}
-
-
-}
-</style>
-
-<div class="footer">
-  <p>التسجيل الإلكتروني لحضانة جامعة الإمام محمد بن سعود الإسلامية</p>
-    <p>جميع الحقوق محفوظة لجامعة الإمام محمد بن سعود الإسلامية 1444 هـ - 2023 م</p>
-  <a href="https://units.imamu.edu.sa/administrations/riyadhalatfal/Pages/default.aspx"><u>الموقع الرسمي للحضانة</u></a>
-  |  
-   <a href="https://twitter.com/bkikaimamu?s=11&t=xeoT0roKetweN5NfaeGlIA"><u>حسابنا على التويتر</u></a>
-   
-</div>
