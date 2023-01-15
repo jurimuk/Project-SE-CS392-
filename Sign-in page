@@ -1,1 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            form {
+                border: 3px solid #f1f1f1;
+            }
+        }
+
+
+        .name {
+            color: #221d23;
+            text-align: center;
+
+        }
+
+        .navbar {
+            position: fixed;
+            width: 100%;
+            background-color: #221d23;
+            overflow: center;
+            text-align: center;
+
+        }
+
+        input[type=text],
+        input[type=password] {
+            width: 300px;
+            padding: 8px 10px;
+            margin: 10px auto;
+            display: block;
+            border: 2px double #221d23;
+            box-sizing: double;
+
+        }
+
+        button {
+            background-color: #6e9075;
+            color: #fdfffc;
+            padding: 20px 10px;
+            margin: 10px 0;
+            border: solid;
+            cursor: grab;
+            width: 30%;
+            text-align: center;
+
+
+        }
+
+        button:hover {
+            opacity: 0.99;
+            color: black;
+            text-align: auto;
+
+        }
+        .imgcontainer {
+            text-align: center;
+            margin: 10px 0 12px 0;
+        }
+
+        img.avatar {
+            width: 10%;
+            border-radius: 40%;
+            text-align: center;
+
+        }
+
+        .container {
+            padding: 10px;
+            text-align: center;
+
+        }
+
+        .topnav {
+            overflow: visible;
+            background-color: #197bbd;
+            text-align: right;
+            padding: 40px;
+
+        }
+
+
+        .topnav a {
+            float: left;
+            display: block;
+            color: #fdfffc;
+            text-align: center;
+            padding: 10px ;
+            text-decoration: double;
+            font-size: 20px;
+
+        }
+
+        .topnav a:hover {
+            color: #fdfffc;
+            text-align: center;
+
+
+        }
+
+        .topnav a.active {
+            background-color: white;
+            color:#197bbd ;
+            text-align: center;
+
+
+        }
+
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: #197bbd;
+            color: #fdfffc;
+            text-align: center;
+            font-size: 120%;
+            padding: 10px 0;
+
+        }
+
+        img {
+            width: 9%;
+            border-radius: 100%;
+           
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="topnav">
+        <a class="active" href="#home">Home / الرئيسية</a>
+        <a href="reg">Registration /  التقديم</a>
+        <a href="#sign-in">Sign in / تسجيل الدخول</a>
+        <img class="main-logo" src="https://pbs.twimg.com/profile_images/1576974026278375427/wVGPM26T_400x400.jpg">
+        <p><b>المملكة العربية السعودية </b></p>
+        <p><b>وزارة التعليم</b></p>
+        <p><b>جامعة الإمام محمد بن سعود الإسلامية</b></p>
+    </div>
+
+
+    <form action="/action_page.php" method="post">
+        <div class="imgcontainer">
+            <img src="img_avatar2.png" alt="Avatar" class="avatar">
+        </div>
+
+        <div class="container">
+            <label for="uname"><b>Username / اسم المستخدم</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+
+            <label for="psw"><b>Password / كلمة السر</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+
+            <button type="submit">Log in / تسجيل الدخول</button>
+            <label>
+  </div>
+ 
+ 
+<div class="footer">
+  <p>التسجيل الإلكتروني لحضانة جامعة الإمام محمد بن سعود الإسلامية</p>
+    <p>جميع الحقوق محفوظة لجامعة الإمام محمد بن سعود الإسلامية 1444 هـ - 2023 م</p>
+  <a href="https://units.imamu.edu.sa/administrations/riyadhalatfal/Pages/default.aspx"><u>الموقع الرسمي للحضانة </u></a>
+     
+     <a>__</a>
+         <a href="https://twitter.com/bkikaimamu?s=11&t=xeoT0roKetweN5NfaeGlIA"><u>حسابنا على التويتر   </u></a>
+</div>
+
+</body>
+</html>
 
