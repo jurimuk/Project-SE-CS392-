@@ -158,7 +158,7 @@
         </div>
 
 
-        <div class="container" style="padding:10px 16px"  id="signin">
+        <div class="container" style="padding:10px 16px" id="signin">
 
             <label for="uname"><b>Username / اسم المستخدم</b></label>
             <input type="text" placeholder="Enter Username" name="uname" required>
@@ -166,18 +166,19 @@
             <label for="psw"><b>Password / كلمة السر</b></label>
             <input type="password" placeholder="Enter Password" name="psw" required>
 
-            <button type="submit">Log in / تسجيل الدخول</button>
-            <label>
-        </div>
+            <button type="#information_page">Log in / تسجيل الدخول</button>
+            <div class="container" style="padding:10px 16px" id="information_page">
+                <label>
+            </div>
 
 
-        <div class="footer">
-            <p>التسجيل الإلكتروني لحضانة جامعة الإمام محمد بن سعود الإسلامية</p>
-            <p>جميع الحقوق محفوظة لجامعة الإمام محمد بن سعود الإسلامية 1444 هـ - 2023 م</p>
-            <a href="https://units.imamu.edu.sa/administrations/riyadhalatfal/Pages/default.aspx"><u>الموقع الرسمي للحضانة </u></a>
-            |
-            <a href="https://twitter.com/bkikaimamu?s=11&t=xeoT0roKetweN5NfaeGlIA"><u>حسابنا على التويتر </u></a>
-        </div>
+            <div class="footer">
+                <p>التسجيل الإلكتروني لحضانة جامعة الإمام محمد بن سعود الإسلامية</p>
+                <p>جميع الحقوق محفوظة لجامعة الإمام محمد بن سعود الإسلامية 1444 هـ - 2023 م</p>
+                <a href="https://units.imamu.edu.sa/administrations/riyadhalatfal/Pages/default.aspx"><u>الموقع الرسمي للحضانة </u></a>
+                |
+                <a href="https://twitter.com/bkikaimamu?s=11&t=xeoT0roKetweN5NfaeGlIA"><u>حسابنا على التويتر </u></a>
+            </div>
 
 </body>
 
