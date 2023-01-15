@@ -89,7 +89,7 @@ img.avatar {
 }
 
 img {
-  width: 10%;
+  width: 5%;
   border-radius: 0%;
     text-align: left;
 }
@@ -121,6 +121,7 @@ img {
 
 }
 
+
 }
 </style>
 </head>
@@ -129,7 +130,7 @@ img {
 <div class="topnav">
 <a class="active" href="#home">Home / الرئيسية</a>
 <a href="reg">Registration /  التقديم</a>
-<a href="#sign-in">Sign in / التسجيل</a>
+<a href="#sign-in">Sign in / تسجيل الدخول</a>
 <img class="main-logo" src="https://imamu.edu.sa/PublishingImages/logo/%D8%B4%D8%B9%D8%A7%D8%B1_%D8%AC%D8%A7%D9%85%D8%B9%D8%A9_%D8%A7%D9%84%D8%A5%D9%85%D8%A7%D9%85_%D8%A7%D9%84%D9%85%D8%B9%D8%AA%D9%85%D8%AF_%D9%84%D9%84%D8%AA%D8%AD%D9%85%D9%8A%D9%84.png">
     </form>
   </div>
@@ -183,3 +184,4 @@ img {
    <a href="https://twitter.com/bkikaimamu?s=11&t=xeoT0roKetweN5NfaeGlIA"><u>حسابنا على التويتر</u></a>
    
 </div>
+
