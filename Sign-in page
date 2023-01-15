@@ -45,7 +45,7 @@
         }
 
         button {
-            background-color: #6e9075;
+            background-color: #197bbd;
             color: #fdfffc;
             padding: 20px 10px;
             margin: 10px 0;
@@ -85,7 +85,7 @@
             overflow: visible;
             background-color: #197bbd;
             text-align: right;
-            padding: 40px;
+            padding: 20px;
 
         }
 
@@ -171,12 +171,8 @@
   <p>التسجيل الإلكتروني لحضانة جامعة الإمام محمد بن سعود الإسلامية</p>
     <p>جميع الحقوق محفوظة لجامعة الإمام محمد بن سعود الإسلامية 1444 هـ - 2023 م</p>
   <a href="https://units.imamu.edu.sa/administrations/riyadhalatfal/Pages/default.aspx"><u>الموقع الرسمي للحضانة </u></a>
-  
-  
          |
-         
-    
-         <a href="https://twitter.com/bkikaimamu?s=11&t=xeoT0roKetweN5NfaeGlIA"><u>حسابنا على التويتر   </u></a>
+<a href="https://twitter.com/bkikaimamu?s=11&t=xeoT0roKetweN5NfaeGlIA"><u>حسابنا على التويتر   </u></a>
 </div>
 
 </body>
