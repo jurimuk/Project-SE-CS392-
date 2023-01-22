@@ -142,9 +142,9 @@
 <body>
 
     <div class="topnav">
-        <a href="#home" class="active">Home / الرئيسية</a>
-        <a href="#reg" class="active"> Registration / التقديم</a>
-        <a href="#signin" class="active">Sign in / تسجيل الدخول</a>
+        <a href="mainPage.html" class="active">Home / الرئيسية</a>
+        <a href="rigistrationPage.html" class="active"> Registration / التقديم</a>
+        <a href="signINpage.html" class="active">Sign in / تسجيل الدخول</a>
 
 
         <img class="main-logo" src="https://pbs.twimg.com/profile_images/1576974026278375427/wVGPM26T_400x400.jpg">
