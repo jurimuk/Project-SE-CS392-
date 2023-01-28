@@ -1,0 +1,76 @@
+The interface of the website (Home):
+public interface Home {
+   void goToPage();
+}
+
+This is our first page (LogIn):
+ 
+
+public class LogIn implements Home {
+
+   @Override
+   public void goToPage() {
+      System.out.println("LogIn::goToPage()");
+   }
+}
+
+This is our second page (Registration page):
+public class Registration implements Home {
+
+   @Override
+   public void goToPage() {
+      System.out.println("Registration::goToPage()");
+   }
+}
+
+The third page (Information page):
+
+public class Information implements Home {
+
+   @Override
+   public void goToPage() {
+      System.out.println("Information::goToPage()");
+   }
+}
+
+Our facade class: 
+
+public class DMD_Website {
+   private Shape LogIn;
+   private Shape Registration;
+   private Shape Information;
+
+   public DMD_Website() {
+      LogIn = new LogIn();
+      Registration = new Registration();
+      Information = new Information();
+   }
+
+   public void goToLogIn(){
+      LogIn.goToPage();
+   }
+   public void goToReg(){
+      Registration.goToPage();
+   }
+   public void goToInfo(){
+      Information.goToPage();
+   }
+}
+
+The implementation:
+
+public class Website {
+   public static void main(String[] args) {
+      DMD_Website DMD_Website = new DMD_Website();
+
+      DMD_Website.goToLogIn();
+      DMD_Website.goToReg();
+      DMD_Website.goToInfo();		
+   }
+}
+
+Here is the verefied output:
+
+LogIn::goToPage()
+Registration::goToPage()
+Information::goToPage()
