@@ -47,6 +47,14 @@
         color: #FDFFFC;
         font-size: 20px;
       }
+      
+      
+      
+      
+      
+      
+      
+      
       .navigation-links-root-class-name10 {
         top: 9px;
         flex: 1;
@@ -210,7 +218,7 @@
       }
       .sign-in-gallery {
         width: 100%;
-        height: 4539px;
+        height: 4669px;
         display: grid;
         grid-gap: var(--dl-space-space-unit);
         position: relative;
@@ -722,16 +730,16 @@
         text-align: right;
       }
       .sign-in-text69 {
-        left: 238px;
+        top: 3864px;
+        left: 256px;
         width: 150px;
-        bottom: 531px;
         position: absolute;
         font-size: 17px;
       }
       .sign-in-text70 {
-        right: 161px;
+        top: 3866px;
+        right: 143px;
         width: 150px;
-        bottom: 529px;
         position: absolute;
         font-size: 17px;
       }
@@ -757,34 +765,48 @@
         position: absolute;
       }
       .sign-in-checkbox1 {
-        left: 204px;
+        top: 3865px;
+        left: 222px;
         width: 20px;
-        bottom: 530px;
         height: 20px;
         position: absolute;
       }
       .sign-in-checkbox2 {
-        left: 815px;
+        top: 3867px;
+        left: 1072px;
         width: 20px;
-        bottom: 530px;
         height: 20px;
         position: absolute;
       }
       .sign-in-image1 {
-        left: 34px;
+        left: 52px;
         width: 447px;
-        bottom: 74px;
+        bottom: 328px;
         height: 432px;
         position: absolute;
         object-fit: cover;
       }
       .sign-in-image2 {
-        right: 34px;
+        right: 16px;
         width: 433px;
-        bottom: 197px;
+        bottom: 451px;
         height: 278px;
         position: absolute;
         object-fit: cover;
+      }
+      .sign-in-button4 {
+        left: 0px;
+        color: var(--dl-color-gray-white);
+        right: 0px;
+        width: 500px;
+        bottom: 170px;
+        height: 50px;
+        margin: auto;
+        position: absolute;
+        font-style: normal;
+        text-align: center;
+        font-weight: 700;
+        background-color: #197BBD;
       }
       
     </style>
@@ -1146,6 +1168,7 @@
             src="https://lh6.googleusercontent.com/5ahdEPEyzfFz4TdkOYowGZuHtnMs2xS_kCzTwMqzkGlPLij1n0MvZY7pj6Y_0vUJAHcPNQvIIo2KnwRGFwHjM7eAIVy0tvpTP88EmaT2rgZeJbAiFXVV0lvKKjGEvYXhgw=w740"
             class="sign-in-image2"
           />
+          <button class="sign-in-button4 button">التسجيل\submit</button>
         </div>
       </div>
     </div>
