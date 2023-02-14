@@ -142,7 +142,6 @@
     <div class="topnav">
 
         <div class="topnav">
-            <a href="mainPage.html" class="active">Home / الرئيسية</a>
             <a href="rigistrationPage.html" class="active"> Registration / التقديم</a>
             <a href="signINpage.html" class="active">Sign in / تسجيل الدخول</a>
     
