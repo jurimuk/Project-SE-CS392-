@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+ 
+ * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+
+            form {
+                border: 3px solid #f1f1f1;
+            }
+        }
+
+
+        .name {
+            color: #221d23;
+            text-align: center;
+
+        }
+
+        .navbar {
+            position: fixed;
+            width: 100%;
+            background-color: #221d23;
+            overflow: center;
+            text-align: center;
+
+        }
+
+
+        .imgcontainer {
+            text-align: center;
+            margin: 10px 0 12px 0;
+        }
+
+        img.avatar {
+            width: 15%;
+            border-radius: 40%;
+            text-align: center;
+
+        }
+
+        .container {
+            padding: 10px;
+            text-align: center;
+
+        }
+
+        .topnav {
+            overflow: visible;
+            background-color: #9bc5e1;
+            text-align: right;
+            padding: 5px;
+
+        }
+
+
+        .topnav a {
+            float: left;
+            display: block;
+            color: #fdfffc;
+            text-align: center;
+            padding: 10px;
+            text-decoration: double;
+            font-size: 20px;
+
+        }
+
+        .topnav a:hover {
+            color: #fdfffc;
+            text-align: center;
+
+
+        }
+
+        .topnav a.active {
+            background-color: white;
+            color: #197bbd;
+            text-align: center;
+
+
+        }
+
+
+        img {
+            width: 15%;
+            border-radius: 100%;
+
+        }
+         </style>
+    <style>
+        table,
+        th,
+        td {
+            border: 0.5px solid black;
+        }
+    </style>
+    <style>
+        .admin-page-container {
+      width: 100%;
+      display: flex;
+      overflow: auto;
+      min-height: 100vh;
+      align-items: center;
+      flex-direction: row;
+      justify-content: flex-start;
+    }
+    .admin-page-container1 {
+      flex: 0 0 auto;
+      width: auto;
+      height: auto;
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+    }
+    .admin-page-container2 {
+      flex: 0 0 auto;
+      width: auto;
+      height: auto;
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+    }
+    .admin-page-container3 {
+      flex: 0 0 auto;
+      width: auto;
+      height: auto;
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+    }
+    @media(max-width: 1600px) {
+      .admin-page-container2 {
+        position: relative;
+      }
+      .admin-page-textinput {
+        top: -42px;
+        right: -864px;
+        width: 400px;
+        position: absolute;
+      }
+      .admin-page-textinput1 {
+        top: -78px;
+        right: -864px;
+        width: 400px;
+        position: absolute;
+      }
+      .admin-page-container3 {
+        position: relative;
+      }
+      .admin-page-button {
+        top: -42px;
+        color: white;
+        right: -972px;
+        width: 100px;
+        position: absolute;
+        text-align: center;
+        background-color: #197bbd;
+        pointer-events: painted;
+    
+      }
+      .admin-page-button1 {
+        top: -78px;
+        color: white;
+        right: -972px;
+        width: 100px;
+        position: absolute;
+        text-align: center;
+        background-color: #197bbd;
+    }
+    .footer {
+        position: auto;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+      background-color: #9bc5e1;
+        color: #fdfffc;
+        text-align: center;
+        font-size: 120%;
+        padding: 0.05px 0;
+    
+    }
+</style>
+</header>
+
+<body>
+
+    <div class="topnav">
+        <a href="main.html" class="active">Log-out / تسجيل الخروج</a>
+        <a href="admin.html" class="active">Registrations information / معلومات المسجلين</a>
+        
+    <img class="main-logo" src="https://pbs.twimg.com/profile_images/1576974026278375427/wVGPM26T_400x400.jpg">
+    <p><b>المملكة العربية السعودية </b></p>
+    <p><b>وزارة التعليم</b></p>
+    <p><b>جامعة الإمام محمد بن سعود الإسلامية</b></p>
+</div>
+
+    <h1>admin page / صفحة المسؤول</h1>
+    <h3>all receved rigistrations will show in this table / في القائمة تظهر جميع التسجيلات</h3>
+
+
+    <table style="width:100%">
+        <tr>
+            <th>rigistration number</th>
+            <th>email</th>
+            <th>parrent full name</th>
+            <th>phone number</th>
+            <th>parent ID</th>
+            <th>job</th>
+            <th>employer</th>
+            <th>child full name</th>
+            <th>gender</th>
+            <th>age</th>
+            <th>nationality</th>
+            <th>childe ID</th>
+            <th>birth day in H</th>
+            <th>birth day in G</th>
+            <th>mother name </th>
+            <th>mother phone number</th>
+            <th>other contact name</th>
+            <th>other contact relation</th>
+            <th>other contact phone number</th>
+            <th>child live position</th>
+            <th>parent status</th>
+            <th>residential address</th>
+            <th>family members</th>
+            <th>child order in family</th>
+            <th>responsibal person to get child</th>
+            <th>maid availabality</th>
+        </tr>
+        <!--reem registration-->
+        <tr>
+            <td>1</td>
+            <td>Reemeeee112@gmail.com</td>
+            <td>Reem Mohammed Abdulaah</td>
+            <td>0535798197</td>
+            <td>1101234666</td>
+            <td>Programmer</td>
+            <td>oracle</td>
+            <td>Lana Sulaiman</td>
+            <td>Female</td>
+            <td>4</td>
+            <td>Saudi</td>
+            <td>1012345678</td>
+            <td>1433-11-09</td>
+            <td>2010-11-09</td>
+            <td>Reem</td>
+            <td>0535798197</td>
+            <td>Sara</td>
+            <td>Aunt</td>
+            <td>0567779915</td>
+            <td>Both parents</td>
+            <td>married</td>
+            <td>Riyadh,Alqairawan</td>
+            <td>6</td>
+            <td>3</td>
+            <td>sara</td>
+            <td>false</td>
+        </tr>
+        <!--dana reigistration-->
+        <tr>
+            <td>2</td>
+            <td>DanaAbdulaah@gmail.com</td>
+            <td>Dana Mohammed Abdulaah</td>
+            <td>0535798197 </td>
+            <td>1101234888</td>
+            <td>Accountant</td>
+            <td>SIDF</td>
+            <td>Saad Abdulaah</td>
+            <td>Female</td>
+            <td>4</td>
+            <td>Saudi</td>
+            <td>1012345636</td>
+            <td>1440-01-06</td>
+            <td>2011-10-22</td>
+            <td>Reem</td>
+            <td>0535799197</td>
+            <td>nora</td>
+            <td>sister</td>
+            <td>0561770915</td>
+            <td>Both parents</td>
+            <td>married</td>
+            <td>Riyadh,altaawon</td>
+            <td>2</td>
+            <td>2</td>
+            <td>nora</td>
+            <td>true</td>
+        </tr>
+    </table>
+    <div>
+        <link href="./admin-page.css" rel="stylesheet" />
+        <div class="admin-page-container">
+          <div class="admin-page-container1">
+            <div class="admin-page-container2">
+              <input
+                type="text"
+                placeholder="enter accepted student number"
+                class="input admin-page-textinput"
+              />
+              <input
+                type="text"
+                placeholder="enter denied student number"
+                class="input admin-page-textinput1"
+              />
+            </div>
+          </div>
+          <div class="admin-page-container3">
+            <button type="button" class="button admin-page-button">
+              <span>
+                <span>accept</span>
+                <br />
+              </span>
+            </button>
+            <button class="button admin-page-button1">
+              <span>
+                <span>deny</span>
+                <br />
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+
+        <footer class="w3-center w3-pale-blue w3-padding-64">
+            <p class="w3-center w3-large">تواصل معنا عبر</p>
+           <i class="fa fa-twitter"></u></a> | @bkikaimamu</i> 
+            
+            <i class="fa fa-phone"></u></a> | 0112598439 </i>
+           
+            <i class="fa fa-envelope"></u></a>  | esalskran@imamu.edu.sa</i>
+            <p"esalskran@imamu.edu.sa"></p>
+           <p class="w3-center w3-xmedium"></p>
+           
+            </div>
+            <div class="footer">
+                      <p>التسجيل الإلكتروني لحضانة جامعة الإمام محمد بن سعود الإسلامية</p>
+                      <p>جميع الحقوق محفوظة لجامعة الإمام محمد بن سعود الإسلامية 1444 هـ - 2023 م</p>
+            <p> الموقع الرسمي <a href="https://units.imamu.edu.sa/administrations/riyadhalatfal/Pages/default.aspx" title="W3.CSS" target="_blank" class="w3-hover-text-green">للحضانة</a></p>
+        </footer>
+</body>
+
+</html>
