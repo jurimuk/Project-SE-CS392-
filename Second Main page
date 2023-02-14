@@ -117,23 +117,22 @@
         }
 
         /* Position text in the middle of the page/image */
-        .bg-text {
-            background-color: rgb(0, 0, 0);
-            /* Fallback color */
-            background-color: rgba(0, 0, 0, 0.4);
-            /* Black w/opacity/see-through */
-            color: white;
-            font-weight: bold;
-            border: 3px solid #f1f1f1;
-            position: absolute;
-            top: absolute;
-            left: absolute;
-            transform: translate(-50%, -50%);
-            z-index: 2;
-            width: 80%;
-            padding: 20px;
-            text-align: center;
-        }
+       .bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+  border: 10px solid #f1f1f1;
+  position: absolute; /* Stay fixed */
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -0%);
+  z-index: 2;
+  width: 300px;
+  padding: 10px;
+  text-align: center;
+}
     </style>
 </head>
 
@@ -158,11 +157,9 @@
 
     </div>
     <div class="bg-image w3-text-white w3-large" style="padding:24px 48px" id="home">
-
-        <h2>
-
-            الموقع الرسمي للتسجيل في إدارة الحضانات ورياض الاطفال التابعة لوكالة تطوير الأعمال والاستثمار بجامعة الامام محمد بن سعود الإسلامية
-        </h2>
+    
+    <div class="bg-text"> الموقع الرسمي للتسجيل في إدارة الحضانات ورياض الاطفال التابعة لوكالة تطوير الأعمال والاستثمار
+</div>
 
 
     </div>
@@ -172,10 +169,15 @@
 
 <footer class="w3-center w3-pale-blue w3-padding-64">
     <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-home "></i></a>
-    <p class="w3-center w3-large">تابعنا على</p>
-      <i class="fa fa-snapchat w3-hover-opacity"></i>
-   <a href="https://twitter.com/bkikaimamu?s=11&t=xeoT0roKetweN5NfaeGlIA"><u><i class="fa fa-twitter w3-hover-opacity"></u></a></i>    
-   <p class="w3-center w3-large"></p>
+    <p class="w3-center w3-large">تواصل معنا عبر </p>
+     <i class="fa fa-twitter"></u></a> | @bkikaimamu</i> 
+    
+    <i class="fa fa-phone"></u></a> | 0112598439 </i>
+   
+    <i class="fa fa-envelope"></u></a>  | esalskran@imamu.edu.sa</i>
+   <p class="w3-center w3-xmedium"></p>
+
+   
    
     </div>
     <div class="footer">
