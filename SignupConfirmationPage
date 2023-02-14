@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
  
@@ -22,8 +23,7 @@
         .name {
             color: #221d23;
             text-align: center;
-
-        }
+       }
 
         .navbar {
             position: fixed;
@@ -40,12 +40,11 @@
             margin: 10px 0 12px 0;
         }
 
-        .avatar img {
+        img.avatar {
             width: 15%;
             border-radius: 40%;
             text-align: center;
-
-        }
+  }
 
         .container {
             padding: 10px;
@@ -69,7 +68,7 @@
             text-align: center;
             padding: 10px;
             text-decoration: double;
-            font-size: 20px;
+      font-size: 20px;
 
         }
 
@@ -87,10 +86,45 @@
 
 
         }
+.footer {
+    position: auto;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  background-color: #9bc5e1;
+    color: #000000;
+    text-align: center;
+    font-size: 120%;
+    padding: 0.05px 0;
 
+}
 
+        img {
+            width: 15%;
+            border-radius: 100%;
+
+        }
+         </style>
+</head>
+ <div class="topnav">
+
+        <div class="topnav">
+            <a href="rigistrationPage.html" class="active"> Registration / التقديم</a>
+            <a href="signINpage.html" class="active">Sign in / تسجيل الدخول</a>
+    
+    
+        <img class="main-logo" src="https://pbs.twimg.com/profile_images/1576974026278375427/wVGPM26T_400x400.jpg">
+        <p><b>المملكة العربية السعودية </b></p>
+        <p><b>وزارة التعليم</b></p>
+        <p><b>جامعة الإمام محمد بن سعود الإسلامية</b></p>
+    </div>
+
+    </div>
+</html>
     </style>
-    <style>
+</head> 
+    <div><div>
+  <body>  <style> 
         .sign-up-confirmation-container {
             width: 100%;
             display: flex;
@@ -103,13 +137,13 @@
             top: 350px;
             left: 0px;
             right: 0px;
-            width: 1470px;
+            width: 1000px;
             height: 640px;
-            position: absolute;
+            position: absoulte;
             align-self: center;
           }
           .sign-up-confirmation-heading {
-            top: 155px;
+            top: 300px;
             left: 214px;
             color: #197bbd;
             width: 1000px;
@@ -117,7 +151,7 @@
             margin: auto;
             position: absolute;
             font-size: 50px;
-            text-align: center;
+            text-align: left;
             text-transform: uppercase;
           }
           .sign-up-confirmation-text {
@@ -125,7 +159,7 @@
             font-weight: 700;
           }
           .sign-up-confirmation-text3 {
-            top: 225px;
+            top: 350px;
             left: 0px;
             color: #197BBD;
             right: 0px;
@@ -155,19 +189,11 @@
         
         }
     </style>
+    <body>
 
   </head>
   <body>
 
-    <div class="topnav">
-        <a href="mainPage.html" class="active">Home / الرئيسية</a>
-        <a href="rigistrationPage.html" class="active">Registration / التقديم</a>
-        <a href="signINpage.html" class="active">Sign in / تسجيل الدخول</a>
-    <img class="main-logo" src="https://pbs.twimg.com/profile_images/1576974026278375427/wVGPM26T_400x400.jpg">
-    <p><b>المملكة العربية السعودية </b></p>
-    <p><b>وزارة التعليم</b></p>
-    <p><b>جامعة الإمام محمد بن سعود الإسلامية</b></p>
-</div>
     <div>
         <link href="./sign-up-confirmation.css" rel="stylesheet" />
         <div class="sign-up-confirmation-container">
@@ -191,22 +217,22 @@
       </div>
       <div class="footer">
 
-        <footer class="w3-center w3-pale-blue w3-padding-64">
-            <a href="#main" class="w3-button w3-light-grey"><i class="fa fa-home "></i></a>
-            <p class="w3-center w3-large">تواصل معنا عبر</p>
-           <i class="fa fa-twitter"></u></a> | @bkikaimamu</i> 
-            
-            <i class="fa fa-phone"></u></a> | 0112598439 </i>
-           
-            <i class="fa fa-envelope"></u></a>  | esalskran@imamu.edu.sa</i>
-            <p"esalskran@imamu.edu.sa"></p>
-           <p class="w3-center w3-xmedium"></p>
-           
-            </div>
-            <div class="footer">
-                      <p>التسجيل الإلكتروني لحضانة جامعة الإمام محمد بن سعود الإسلامية</p>
-                      <p>جميع الحقوق محفوظة لجامعة الإمام محمد بن سعود الإسلامية 1444 هـ - 2023 م</p>
-            <p> الموقع الرسمي <a href="https://units.imamu.edu.sa/administrations/riyadhalatfal/Pages/default.aspx" title="W3.CSS" target="_blank" class="w3-hover-text-green">للحضانة</a></p>
-        </footer>
+<footer class="w3-center w3-pale-blue w3-padding-64">
+    <a href="#main" class="w3-button w3-light-grey"><i class="fa fa-home "></i></a>
+    <p class="w3-center w3-large">تواصل معنا عبر</p>
+   <i class="fa fa-twitter"></u> </a> | @bkikaimamu</i> 
+    
+    <i class="fa fa-phone"></u> </a> | 0112598439 </i>
+   
+    <i class="fa fa-envelope"> </u></a>  | esalskran@imamu.edu.sa</i>
+    <p"esalskran@imamu.edu.sa"></p>
+   <p class="w3-center w3-xmedium"></p>
+   
+    </div>
+    <div class="footer">
+              <p>التسجيل الإلكتروني لحضانة جامعة الإمام محمد بن سعود الإسلامية</p>
+              <p>جميع الحقوق محفوظة لجامعة الإمام محمد بن سعود الإسلامية 1444 هـ - 2023 م</p>
+    <p> الموقع الرسمي <a href="https://units.imamu.edu.sa/administrations/riyadhalatfal/Pages/default.aspx" title="W3.CSS" target="_blank" class="w3-hover-text-green">للحضانة</a></p>
+</footer>
   </body>
 </html>
