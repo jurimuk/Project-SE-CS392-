@@ -1,8 +1,6 @@
-
-     <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
-
-<head>
+<header>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -24,7 +22,8 @@
         .name {
             color: #221d23;
             text-align: center;
-       }
+
+        }
 
         .navbar {
             position: fixed;
@@ -45,7 +44,8 @@
             width: 15%;
             border-radius: 40%;
             text-align: center;
-  }
+
+        }
 
         .container {
             padding: 10px;
@@ -69,7 +69,7 @@
             text-align: center;
             padding: 10px;
             text-decoration: double;
-      font-size: 20px;
+            font-size: 20px;
 
         }
 
@@ -87,18 +87,7 @@
 
 
         }
-.footer {
-    position: auto;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-  background-color: #9bc5e1;
-    color: #000000;
-    text-align: center;
-    font-size: 120%;
-    padding: 0.05px 0;
 
-}
 
         img {
             width: 15%;
@@ -106,29 +95,116 @@
 
         }
          </style>
-</head>
+    <style>
+        table,
+        th,
+        td {
+            border: 0.5px solid black;
+        }
+    </style>
+    <style>
+        .admin-page-container {
+      width: 100%;
+      display: flex;
+      overflow: auto;
+      min-height: 100vh;
+      align-items: center;
+      flex-direction: row;
+      justify-content: flex-start;
+    }
+    .admin-page-container1 {
+      flex: 0 0 auto;
+      width: auto;
+      height: auto;
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+    }
+    .admin-page-container2 {
+      flex: 0 0 auto;
+      width: auto;
+      height: auto;
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+    }
+    .admin-page-container3 {
+      flex: 0 0 auto;
+      width: auto;
+      height: auto;
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+    }
+    @media(max-width: 1600px) {
+      .admin-page-container2 {
+        position: relative;
+      }
+      .admin-page-textinput {
+        top: -42px;
+        right: -864px;
+        width: 400px;
+        position: absolute;
+      }
+      .admin-page-textinput1 {
+        top: -78px;
+        right: -864px;
+        width: 400px;
+        position: absolute;
+      }
+      .admin-page-container3 {
+        position: relative;
+      }
+      .admin-page-button {
+        top: -42px;
+        color: white;
+        right: -972px;
+        width: 100px;
+        position: absolute;
+        text-align: center;
+        background-color: #197bbd;
+        pointer-events: painted;
+    
+      }
+      .admin-page-button1 {
+        top: -78px;
+        color: white;
+        right: -972px;
+        width: 100px;
+        position: absolute;
+        text-align: center;
+        background-color: #197bbd;
+    }
+    .footer {
+        position: auto;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+      background-color: #9bc5e1;
+        color: #fdfffc;
+        text-align: center;
+        font-size: 120%;
+        padding: 0.05px 0;
+    
+    }
+</style>
+</header>
 
 <body>
-        
-         <div class="topnav">
-            <a href="mainPage.html" class="active">Log out / تسجيل الخروج</a>
-           <a href="ChildInfopage.html" class="active">Child information / معلومات الطفل</a> 
-        <img class="main-logo" src="https://pbs.twimg.com/profile_images/1576974026278375427/wVGPM26T_400x400.jpg">
-        <p><b>المملكة العربية السعودية </b></p>
-        <p><b>وزارة التعليم</b></p>
-        <p><b>جامعة الإمام محمد بن سعود الإسلامية</b></p>
-    </div>
-</body>
 
-</html>
-    </style>
-</head>
+    <div class="topnav">
+        <a href="mainPage.html" class="active">Home / الرئيسية</a>
+        <a href="rigistrationPage.html" class="active">Registration / التقديم</a>
+        <a href="signINpage.html" class="active">Sign in / تسجيل الدخول</a>
+    <img class="main-logo" src="https://pbs.twimg.com/profile_images/1576974026278375427/wVGPM26T_400x400.jpg">
+    <p><b>المملكة العربية السعودية </b></p>
+    <p><b>وزارة التعليم</b></p>
+    <p><b>جامعة الإمام محمد بن سعود الإسلامية</b></p>
+</div>
 
-<body>     
-
-
-        <h1>admin page / صفحة المسؤول</h1>
+    <h1>admin page / صفحة المسؤول</h1>
     <h3>all receved rigistrations will show in this table / في القائمة تظهر جميع التسجيلات</h3>
+
 
     <table style="width:100%">
         <tr>
@@ -218,34 +294,58 @@
             <td>true</td>
         </tr>
     </table>
+    <div>
+        <link href="./admin-page.css" rel="stylesheet" />
+        <div class="admin-page-container">
+          <div class="admin-page-container1">
+            <div class="admin-page-container2">
+              <input
+                type="text"
+                placeholder="enter accepted student number"
+                class="input admin-page-textinput"
+              />
+              <input
+                type="text"
+                placeholder="enter denied student number"
+                class="input admin-page-textinput1"
+              />
+            </div>
+          </div>
+          <div class="admin-page-container3">
+            <button type="button" class="button admin-page-button">
+              <span>
+                <span>accept</span>
+                <br />
+              </span>
+            </button>
+            <button class="button admin-page-button1">
+              <span>
+                <span>deny</span>
+                <br />
+              </span>
+            </button>
+          </div>
+        </div>
       </div>
-    </div>
-    
-    <script
-      data-section-id="header"
-      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
-    ></script>
-    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-  </body>
-</html>
-    <div class="footer">
+      <div class="footer">
 
-<footer class="w3-center w3-pale-blue w3-padding-64">
-    <a href="#main" class="w3-button w3-light-grey"><i class="fa fa-home "></i></a>
-    <p class="w3-center w3-large">تواصل معنا عبر</p>
-   <i class="fa fa-twitter"></u> </a> | @bkikaimamu</i> 
-    
-    <i class="fa fa-phone"></u> </a> | 0112598439 </i>
-   
-    <i class="fa fa-envelope"> </u></a>  | esalskran@imamu.edu.sa</i>
-    <p"esalskran@imamu.edu.sa"></p>
-   <p class="w3-center w3-xmedium"></p>
-   
-    </div>
-    <div class="footer">
-              <p>التسجيل الإلكتروني لحضانة جامعة الإمام محمد بن سعود الإسلامية</p>
-              <p>جميع الحقوق محفوظة لجامعة الإمام محمد بن سعود الإسلامية 1444 هـ - 2023 م</p>
-    <p> الموقع الرسمي <a href="https://units.imamu.edu.sa/administrations/riyadhalatfal/Pages/default.aspx" title="W3.CSS" target="_blank" class="w3-hover-text-green">للحضانة</a></p>
-</footer>
-  </body>
+        <footer class="w3-center w3-pale-blue w3-padding-64">
+            <a href="#main" class="w3-button w3-light-grey"><i class="fa fa-home "></i></a>
+            <p class="w3-center w3-large">تواصل معنا عبر</p>
+           <i class="fa fa-twitter"></u></a> | @bkikaimamu</i> 
+            
+            <i class="fa fa-phone"></u></a> | 0112598439 </i>
+           
+            <i class="fa fa-envelope"></u></a>  | esalskran@imamu.edu.sa</i>
+            <p"esalskran@imamu.edu.sa"></p>
+           <p class="w3-center w3-xmedium"></p>
+           
+            </div>
+            <div class="footer">
+                      <p>التسجيل الإلكتروني لحضانة جامعة الإمام محمد بن سعود الإسلامية</p>
+                      <p>جميع الحقوق محفوظة لجامعة الإمام محمد بن سعود الإسلامية 1444 هـ - 2023 م</p>
+            <p> الموقع الرسمي <a href="https://units.imamu.edu.sa/administrations/riyadhalatfal/Pages/default.aspx" title="W3.CSS" target="_blank" class="w3-hover-text-green">للحضانة</a></p>
+        </footer>
+</body>
+
 </html>
