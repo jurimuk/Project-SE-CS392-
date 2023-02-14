@@ -172,14 +172,17 @@
             </div>
 
 
-           <div class="footer">
+            <div class="footer">
 
 <footer class="w3-center w3-pale-blue w3-padding-64">
     <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-home "></i></a>
-    <p class="w3-center w3-large">تابعنا على</p>
-      <i class="fa fa-snapchat w3-hover-opacity"></i>
-   <a href="https://twitter.com/bkikaimamu?s=11&t=xeoT0roKetweN5NfaeGlIA"><u><i class="fa fa-twitter w3-hover-opacity"></u></a></i>    
-   <p class="w3-center w3-large"></p>
+    <p class="w3-center w3-large">تواصل معنا عبر </p>
+     <i class="fa fa-twitter"></u></a> | @bkikaimamu</i> 
+    
+    <i class="fa fa-phone"></u></a> | 0112598439 </i>
+   
+    <i class="fa fa-envelope"></u></a>  | esalskran@imamu.edu.sa</i>
+   <p class="w3-center w3-xmedium"></p>
    
     </div>
     <div class="footer">
