@@ -172,7 +172,7 @@
          
          <div class="topnav"> 
             <a href="mainPage.html" class="active"> Home / الرئيسية</a> 
-   <a href="rigistrationPage.html" class="active">Registration / التقديم</a>
+   
        <a href="signOUTpage.html" class="active">Sign out / تسجيل الخروج</a>
         <img class="main-logo" src="https://pbs.twimg.com/profile_images/1576974026278375427/wVGPM26T_400x400.jpg"> 
         <p><b>المملكة العربية السعودية </b></p> 
