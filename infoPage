@@ -1,108 +1,236 @@
 <!DOCTYPE html> 
 <html> 
+ 
 <head> 
-<meta name="viewport" content="width=device-width, initial-scale=1"> 
-<style> 
-body { 
-  font-family: Arial, Helvetica, sans-serif; 
-  margin: 0; 
-} 
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <style> 
+  
+ * { 
+            box-sizing: border-box; 
+        } 
  
-html { 
-  box-sizing: border-box; 
-} 
+        body { 
+            margin: 0; 
+            font-family: Arial, Helvetica, sans-serif; 
  
-*, *:before, *:after { 
-  box-sizing: inherit; 
-} 
+            form { 
+                border: 3px solid #f1f1f1; 
+            } 
+        } 
  
-.column { 
-  margin: 0px 0px 0px 450px;
-  float: left; 
-  width: 50%; 
-  margin-bottom: 16px; 
-  padding: 0 8px; 
-} 
+ 
+        .name { 
+            color: #221d23; 
+            text-align: center; 
+ 
+        } 
+ 
+        .navbar { 
+            position: fixed; 
+            width: 100%; 
+            background-color: #221d23; 
+            overflow: center; 
+            text-align: center; 
+ 
+        } 
+ 
+ 
+        .imgcontainer { 
+            text-align: center; 
+            margin: 10px 0 12px 0; 
+        } 
+ 
+        img.avatar { 
+            width: 15%; 
+            border-radius: 40%; 
+            text-align: center; 
+ 
+        } 
+ 
+        .container { 
+            padding: 10px; 
+            text-align: center; 
+ 
+        } 
+ 
+        .topnav { 
+            overflow: visible; 
+            background-color: #9bc5e1; 
+            text-align: right; 
+            padding: 5px; 
+ 
+        } 
+ 
+ 
+        .topnav a { 
+            float: left; 
+            display: block; 
+            color: #fdfffc; 
+            text-align: center; 
+            padding: 10px; 
+            text-decoration: double; 
+            font-size: 20px; 
+ 
+        } 
+ 
+        .topnav a:hover { 
+            color: #fdfffc; 
+            text-align: center; 
+ 
+ 
+        } 
+ 
+        .topnav a.active { 
+            background-color: white; 
+            color: #197bbd; 
+            text-align: center; 
+ 
+ 
+        } 
+ 
+ 
+        img { 
+            width: 15%; 
+            border-radius: 100%; 
+ 
+        } 
+        .column {  
+  margin: 0px 0px 0px 450px; 
+  float: left;  
+  width: 50%;  
+  margin-bottom: 16px;  
+  padding: 0 8px;  
+  margin: 100px 50px 75px 10px; 
+}  
+ 
+.card {  
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);  
+  margin: 8px; 
+  text-align: center; 
+    
+}  
+  
+.about-section {  
+  padding: 50px;  
+  text-align: center;  
+  background-color: #474e5d;  
+  color: white;  
+}  
+  
+.container {  
+  padding: 0 16px;  
+}  
+  
+.container::after, .row::after {  
+  content: "";  
+  clear: both;  
+  display: table;  
+}  
+  
+.title {  
+  color: grey;  
+}  
+  
+.button {  
+  border: none;  
+  outline: 0;  
+  display: inline-block;  
+  padding: 20px;  
+  color: white;  
+  background-color: #000;  
+  text-align: center;  
+  cursor: pointer;  
+  width: 50%;  
+}  
+  
+.button:hover {  
+  background-color: #555;  
+}  
+.footer {
+            position: auto;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: #9bc5e1;
+            color: black;
+            text-align: center;
+            font-size: 120%;
+            padding: 10px 0;
 
-.card { 
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
-  margin: 8px;
-  text-align: center;
-} 
- 
-.about-section { 
-  padding: 50px; 
-  text-align: center; 
-  background-color: #474e5d; 
-  color: white; 
-} 
- 
-.container { 
-  padding: 0 16px; 
-} 
- 
-.container::after, .row::after { 
-  content: ""; 
-  clear: both; 
-  display: table; 
-} 
- 
-.title { 
-  color: grey; 
-} 
- 
-.button { 
-  border: none; 
-  outline: 0; 
-  display: inline-block; 
-  padding: 20px; 
-  color: white; 
-  background-color: #000; 
-  text-align: center; 
-  cursor: pointer; 
-  width: 50%; 
-} 
- 
-.button:hover { 
-  background-color: #555; 
-} 
- 
-@media screen and (max-width: 650px) { 
-  .column { 
-    width: 100%; 
-    display: block; 
-  } 
-} 
-</style> 
+        }
+  
+@media screen and (max-width: 650px) {  
+  .column {  
+    width: 100%;  
+    display: block;  
+  }  
+         </style> 
 </head> 
+ 
 <body> 
- 
-<div class="about-section"> 
-  <h1>About Us Page</h1> 
-  <p>Some text about who we are and what we do.</p> 
-  <p>Resize the browser window to see that this page is responsive by the way.</p> 
-</div> 
- 
-<h2 style="text-align:center">معلومات الطفل </h2> 
-<div class="row"> 
-  <div class="column"> 
-    <div class="card"> 
-      <img src="https://pbs.twimg.com/profile_images/587378279478272001/cbuKYyAz_400x400.jpg" alt="Jane" style="width:40%"> 
-      <div class="center"> 
-        <h2>اسم الطفل : أحمد بن سلطان </h2> 
-        <p class="title"> حالة التسجيل : انتظار </button></p> 
-        <p class="title"> رقم الانتظار : 60251</p> 
-        <p>رقم الهوية :109223011 </p> 
-        <p>العمر : 4 سنوات</p> 
-        <p>رقم التواصل :0558724782 </p> 
-
-        <p></p> 
          
-      </div> 
+         <div class="topnav"> 
+            <a href="mainPage.html" class="active"> Home / الرئيسية</a> 
+   <a href="rigistrationPage.html" class="active">Registration / التقديم</a>
+       <a href="signOUTpage.html" class="active">Sign out / تسجيل الخروج</a>
+        <img class="main-logo" src="https://pbs.twimg.com/profile_images/1576974026278375427/wVGPM26T_400x400.jpg"> 
+        <p><b>المملكة العربية السعودية </b></p> 
+        <p><b>وزارة التعليم</b></p> 
+        <p><b>جامعة الإمام محمد بن سعود الإسلامية</b></p> 
     </div> 
-  </div> 
- 
- </div> 
- 
 </body> 
-</html>
+
+ 
+</style>  
+</head>  
+<body>  
+ 
+ 
+  
+<h2 style="text-align:center"> معلومات الطفل</h2>  
+<div class="row">  
+  <div class="column">  
+    <div class="card">  
+      <img src="https://pbs.twimg.com/profile_images/587378279478272001/cbuKYyAz_400x400.jpg" alt="Jane" style="width:70%">  
+      <div class="center">  
+        <h2 style="text-align:center">اسم الطفل : أحمد
+بن سلطان </h2>  
+        <p class="title"> حالة التسجيل : انتظار </button></p>  
+        <p class="title"> رقم الانتظار : 60251</p>  
+        <p>رقم الهوية :109223011 </p>  
+        <p>العمر : 4 سنوات</p>  
+        <p>رقم التواصل :0558724782 </p>  
+ 
+        <p></p>  
+        <p></p>  
+      </div>  
+    </div>  
+  </div>  
+  
+ </div>  
+  
+</body>  
+</html> 
+ 
+
+ 
+<div class="footer"> 
+ 
+<footer class="w3-center w3-pale-blue w3-padding-64"> 
+    <a href="#main" class="w3-button w3-light-grey"><i class="fa fa-home "></i></a> 
+    <p class="w3-center w3-large">تواصل معنا عبر</p> 
+   <i class="fa fa-twitter"></u></a> | @bkikaimamu</i>  
+     
+    <i class="fa fa-phone"></u></a> | 0112598439 </i> 
+    
+    <i class="fa fa-envelope"></u></a>  | esalskran@imamu.edu.sa</i> 
+    <p"esalskran@imamu.edu.sa"></p> 
+   <p class="w3-center w3-xmedium"></p> 
+    
+    </div> 
+    <div class="footer"> 
+              <p>التسجيل الإلكتروني لحضانة جامعة الإمام محمد بن سعود الإسلامية</p> 
+              <p>جميع الحقوق محفوظة لجامعة الإمام محمد بن سعود الإسلامية 1444 هـ - 2023 م</p> 
+    <p> الموقع الرسمي <a href="https://units.imamu.edu.sa/administrations/riyadhalatfal/Pages/default.aspx" title="W3.CSS" target="_blank" class="w3-hover-text-green">للحضانة</a></p> 
+</footer>
