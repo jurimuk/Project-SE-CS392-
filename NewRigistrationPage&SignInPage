@@ -1,4 +1,130 @@
 <!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+ 
+ * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+
+            form {
+                border: 3px solid #f1f1f1;
+            }
+        }
+
+
+        .name {
+            color: #221d23;
+            text-align: center;
+       }
+
+        .navbar {
+            position: fixed;
+            width: 100%;
+            background-color: #221d23;
+            overflow: center;
+            text-align: center;
+
+        }
+
+
+        .imgcontainer {
+            text-align: center;
+            margin: 10px 0 12px 0;
+        }
+
+        img.avatar {
+            width: 15%;
+            border-radius: 40%;
+            text-align: center;
+  }
+
+        .container {
+            padding: 10px;
+            text-align: center;
+
+        }
+
+        .topnav {
+            overflow: visible;
+            background-color: #9bc5e1;
+            text-align: right;
+            padding: 5px;
+
+        }
+
+
+        .topnav a {
+            float: left;
+            display: block;
+            color: #fdfffc;
+            text-align: center;
+            padding: 10px;
+            text-decoration: double;
+      font-size: 20px;
+
+        }
+
+        .topnav a:hover {
+            color: #fdfffc;
+            text-align: center;
+
+
+        }
+
+        .topnav a.active {
+            background-color: white;
+            color: #197bbd;
+            text-align: center;
+
+
+        }
+.footer {
+    position: auto;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  background-color: #9bc5e1;
+    color: #000000;
+    text-align: center;
+    font-size: 120%;
+    padding: 0.05px 0;
+
+}
+
+        img {
+            width: 15%;
+            border-radius: 100%;
+
+        }
+         </style>
+</head>
+<body>
+        
+         <div class="topnav">
+      <a href="mainPage.html" class="active">Sign up / تسجيل الدخول </a>
+          <a href="signINpage.html" class="active">Home / الرئيسية</a> 
+    <img class="main-logo" src="https://pbs.twimg.com/profile_images/1576974026278375427/wVGPM26T_400x400.jpg">
+        <p><b>المملكة العربية السعودية </b></p>
+        <p><b>وزارة التعليم</b></p>
+        <p><b>جامعة الإمام محمد بن سعود الإسلامية</b></p>
+    </div>
+</body>       
+      
+
+</html>
+    </style>
+</head>
+
+<body> 
+
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <title>Reflecting Smart Antelope</title>
@@ -910,20 +1036,10 @@
   </head>
   <body>
     <div>
-      <link href="./sign-in.css" rel="stylesheet" />
-
-      <div class="sign-in-container">
-        <header data-role="Header" class="sign-in-header">
-          <nav class="navigation-links-nav navigation-links-root-class-name10">
-            <span class="navigation-links-text">
-              <span>home / الرئيسية</span>
-            </span>
-          </nav>
-          <div class="sign-in-nav"></div>
-          <div class="sign-in-btn-group">
-            <button class="sign-in-login button">Login</button>
-            <button class="button">Register</button>
-          </div>
+    
+  
+         </style>
+      
           <div data-role="BurgerMenu" class="sign-in-burger-menu">
             <svg viewBox="0 0 1024 1024" class="sign-in-icon">
               <path
@@ -1177,5 +1293,43 @@
       src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
     ></script>
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <div class="footer">
+
+<footer class="w3-center w3-pale-blue w3-padding-64">
+    <a href="#main" class="w3-button w3-light-grey"><i class="fa fa-home "></i></a>
+    <p class="w3-center w3-large">تواصل معنا عبر</p>
+   <i class="fa fa-twitter"></u> </a> | @bkikaimamu</i> 
+    
+    <i class="fa fa-phone"></u> </a> | 0112598439 </i>
+   
+    <i class="fa fa-envelope"> </u></a>  | esalskran@imamu.edu.sa</i>
+    <p"esalskran@imamu.edu.sa"></p>
+   <p class="w3-center w3-xmedium"></p>
+   
+    </div>
+    <div class="footer">
+              <p>التسجيل الإلكتروني لحضانة جامعة الإمام محمد بن سعود الإسلامية</p>
+              <p>جميع الحقوق محفوظة لجامعة الإمام محمد بن سعود الإسلامية 1444 هـ - 2023 م</p>
+    <p> الموقع الرسمي <a href="https://units.imamu.edu.sa/administrations/riyadhalatfal/Pages/default.aspx" title="W3.CSS" target="_blank" class="w3-hover-text-green">للحضانة</a></p>
+</footer>
   </body>
 </html>
