@@ -43,12 +43,11 @@
 
         .topnav {
             overflow: visible;
-            background-color: #197bbd;
+            background-color: #9bc5e1;
             text-align: right;
-            padding: 20px;
+            padding: 5px;
 
         }
-
 
         .topnav a {
             float: left;
@@ -81,16 +80,15 @@
             left: 0;
             bottom: 0;
             width: 100%;
-            background-color: #197bbd;
-            color: #fdfffc;
+            background-color: #9bc5e1;
+            color: black;
             text-align: center;
             font-size: 120%;
             padding: 10px 0;
 
         }
-
         img {
-            width: 9%;
+            width: 15%;
             border-radius: 100%;
 
         }
@@ -170,13 +168,21 @@
     </div>
 
 
-    <div class="footer">
-        <p>التسجيل الإلكتروني لحضانة جامعة الإمام محمد بن سعود الإسلامية</p>
-        <p>جميع الحقوق محفوظة لجامعة الإمام محمد بن سعود الإسلامية 1444 هـ - 2023 م</p>
-        <a href="https://units.imamu.edu.sa/administrations/riyadhalatfal/Pages/default.aspx"><u>الموقع الرسمي للحضانة </u></a>
-        |
-        <a href="https://twitter.com/bkikaimamu?s=11&t=xeoT0roKetweN5NfaeGlIA"><u>حسابنا على التويتر </u></a>
+   <div class="footer">
+
+<footer class="w3-center w3-pale-blue w3-padding-64">
+    <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-home "></i></a>
+    <p class="w3-center w3-large">تابعنا على</p>
+      <i class="fa fa-snapchat w3-hover-opacity"></i>
+   <a href="https://twitter.com/bkikaimamu?s=11&t=xeoT0roKetweN5NfaeGlIA"><u><i class="fa fa-twitter w3-hover-opacity"></u></a></i>    
+   <p class="w3-center w3-large"></p>
+   
     </div>
+    <div class="footer">
+              <p>التسجيل الإلكتروني لحضانة جامعة الإمام محمد بن سعود الإسلامية</p>
+              <p>جميع الحقوق محفوظة لجامعة الإمام محمد بن سعود الإسلامية 1444 هـ - 2023 م</p>
+    <p> الموقع الرسمي <a href="https://units.imamu.edu.sa/administrations/riyadhalatfal/Pages/default.aspx" title="W3.CSS" target="_blank" class="w3-hover-text-green">للحضانة</a></p>
+</footer>
 
 </body>
 
