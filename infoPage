@@ -83,13 +83,13 @@ html {
   <p>Resize the browser window to see that this page is responsive by the way.</p> 
 </div> 
  
-<h2 style="text-align:center">معلومات الطالب\ة</h2> 
+<h2 style="text-align:center">معلومات الطفل </h2> 
 <div class="row"> 
   <div class="column"> 
     <div class="card"> 
       <img src="https://pbs.twimg.com/profile_images/587378279478272001/cbuKYyAz_400x400.jpg" alt="Jane" style="width:40%"> 
       <div class="center"> 
-        <h2>اسم الطالب\ة : أحمد بن سلطان </h2> 
+        <h2>اسم الطفل : أحمد بن سلطان </h2> 
         <p class="title"> حالة التسجيل : انتظار </button></p> 
         <p class="title"> رقم الانتظار : 60251</p> 
         <p>رقم الهوية :109223011 </p> 
